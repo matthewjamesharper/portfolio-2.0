@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html> 
 
 <html> 
@@ -25,7 +26,9 @@
     
     <h1> Matthew Harper </h1>
       
-      <a href="#intro"> Introduction </a> <a href="#about"> About Me </a> <a href="#contact"> Contact Information </a>   
+      <a href="#intro" class="btn"> Introduction </a> 
+      <a href="#about" class="btn"> About Me </a> 
+      <a href="#contact" class="btn"> Contact Information </a>   
     
     <h3> Software Developer </h3> 
      
@@ -35,7 +38,7 @@
       
     <!-- Introduction Section --> 
       
-    
+ 
     <article>
       <img src="images/matt-in-denim-jacket.jpg" alt="Matthew Harper">
        <h2 id="intro"> Hello! Welcome to my portfolio project.</h2> 
@@ -43,21 +46,28 @@
         <h3> I am an aspiring software developer based out of Philadelphia, PA. </h3> 
       
      <p> 
-     While in bootcamp, I've found that I enjoy: 
-     <ul> 
+     <h4>While in bootcamp, I've found that I enjoy: </h4>
+
+      <div> 
+     <ul class="list-inside"> 
        <li> Challenging myself to writing simple and effective functions. </li>
        <li> Creating CSS code that brings my HTML to life. </li> 
      </ul> 
-     But in my free time, I like to: 
+      </div>
+      
+     <h4>But in my free time, I like to: </h4>
+      
+    <div> 
      <ul>
-       <li> Eat truly unhealthy amounts of hummus. </li>
+       <li> Eat unhealthy amounts of hummus. </li>
        <li> Play bass in the handful of bands that will have me </li> 
      </ul>   
+    </div>
     </p>
       
       </article> 
 
-    
+  <hr>  
 <!--  About Me Section  -->    
 
     <article id="about"> 
@@ -78,15 +88,17 @@
     </article> 
     
 
-
+<hr>
 <!--   Footer and Contant Section    --> 
 
     <footer id="contact">
       <article> 
       <h4> You can reach me </h4> 
       <h5> 
-       <a href="https://github.com/matthewjamesharper"> on GitHub </a> 
-       <a href="https://www.linkedin.com/in/matthew-james-harper"> and on LinkedIn </a> 
+      <ol>
+       <li><a href="https://github.com/matthewjamesharper" class="btn"> on GitHub </a> </li>
+       <li><a href="https://www.linkedin.com/in/matthew-james-harper" class="btn"> and LinkedIn </a> </li>
+      </ol>
       </h5> 
       <article>   
         
@@ -97,3 +109,4 @@
 </body>
 
  </html> 
+ 
