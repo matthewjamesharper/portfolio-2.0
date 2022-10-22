@@ -14,7 +14,6 @@ header{
   border-color: #E8EEF2;   
   padding: 5px; 
   margin: 20px; 
-  width: 600px; 
 }
 
 a{
@@ -80,8 +79,7 @@ img {
 
 p{
   text-align: center;
-  color: #4A4E69;
-  width: 400px; 
+  color: #4A4E69; 
 }
 
 article {
